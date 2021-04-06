@@ -23,7 +23,6 @@ TEST(Train_Test, test3) {
   unsigned int seed = time(nullptr);
   int state = rand_r(&seed) % 100;
   Train train1;
-  unsigned int seed = time(nullptr);
   int nc = rand_r(&seed) % 100;
   train1.set_nc(nc);
   train1.new_cage(state / 2);
